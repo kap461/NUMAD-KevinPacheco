@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    android:keepScreenOn="true"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/main_menu"
+    tools:context=".MainMenu" >
+
+        <Button
+            android:id="@+id/instructions_button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/quit_button"
+            android:layout_centerHorizontal="true"
+            android:onClick="onInstructionsButtonClick"
+            android:background="@drawable/instructions_button_custom" />
+
+        <Button
+            android:id="@+id/settings_button"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_above="@+id/instructions_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/settings_button_custom"
+            android:onClick="onSettingsButtonClick" />
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_above="@+id/settings_button"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/play_button_custom"
+            android:onClick="onPlayButtonClick" />
+
+        <Button
+            android:id="@+id/quit_button"
+            android:layout_width="80dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:onClick="onQuitButtonClick"
+            android:background="@drawable/quit_button_custom" />
+
+</RelativeLayout>

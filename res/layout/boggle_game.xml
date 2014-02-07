@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game"
+    android:orientation="vertical"
+    android:soundEffectsEnabled="true" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal|fill_horizontal|center"
+        android:orientation="horizontal"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/boggle_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.7"
+                android:text="@string/points"
+                android:textColor="@color/boggle_points"
+                android:textSize="40sp" />
+
+            <TextView
+                android:id="@+id/boggle_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.3"
+                android:gravity="fill_horizontal"
+                android:text="@string/time"
+                android:textColor="@color/boggle_points"
+                android:textSize="40sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal|fill_horizontal|center" >
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+  
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal|fill_horizontal|center" >
+
+            <Button
+                android:id="@+id/button_6"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_7"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_8"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_9"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/button_10"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+ 		</TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal|fill_horizontal|center" >
+
+            <Button
+                android:id="@+id/button_11"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_12"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_13"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_14"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/button_15"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal|fill_horizontal|center" >
+
+            <Button
+                android:id="@+id/button_16"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_17"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_18"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_19"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/button_20"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+    	</TableRow>
+    	
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal|fill_horizontal|center" >
+
+            <Button
+                android:id="@+id/button_21"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_22"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_23"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_24"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+            
+            <Button
+                android:id="@+id/button_25"
+                android:layout_width="20dp"
+                android:layout_height="60dp"
+                android:layout_weight=".25"
+                android:background="@drawable/button_custom"
+                android:gravity="center_vertical|center_horizontal"
+                android:textSize="20sp" />
+    	</TableRow>
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1.0"
+        android:baselineAligned="false" >
+
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0.5dp"
+            android:layout_weight="1"
+            android:stretchColumns="*" >
+            
+        	<TableRow>
+
+        	    <Button
+        	        android:id="@+id/button_Boggle_Clear"
+        	        android:layout_width="0dp"
+        	        android:layout_height="wrap_content"
+        	        android:layout_weight=".5"
+        	        android:alpha=".75"
+        	        android:background="@android:drawable/btn_default"
+        	        android:text="@string/boggle_clear" />
+        	    
+        	    <Button
+                    android:id="@+id/button_Boggle_Submit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:alpha=".75"
+                    android:background="@android:drawable/btn_default"
+                    android:text="@string/boggle_submit" />
+        		
+        	</TableRow>
+        	
+        	<TableRow>
+        	    <TextView
+				    android:id="@+id/boggle_word_textView"
+				    android:visibility="invisible" />
+        	     
+        	</TableRow>
+        	
+        	<TableRow>
+
+        		<Button
+        		    android:id="@+id/button_boggle_pause"
+        		    android:layout_width="0dp"
+        		    android:layout_weight="1"
+        		    android:alpha=".75"
+        		    android:background="@android:drawable/btn_default"
+        		    android:text="@string/pause_title" />
+
+        	</TableRow>
+        	
+        </TableLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband3 for more book information.
+-->
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@drawable/main"
+   android:gravity="center"
+   android:padding="30dip">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginBottom="25dip"
+       android:text="@string/boggle_title"
+       android:textColor="@android:color/white"
+       android:textSize="40sp" />
+
+   <Button
+       android:id="@+id/boggle_newGame"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:alpha="0.75"
+       android:background="@android:drawable/btn_default"
+       android:text="@string/new_game_label" />
+   
+   <Button
+       android:id="@+id/boggle_resumeGame"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:alpha=".75"
+       android:background="@android:drawable/btn_default"
+       android:text="@string/boggle_resume" />
+
+   <Button
+       android:id="@+id/boggle_howtoplay"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:alpha=".75"
+       android:background="@android:drawable/btn_default"
+       android:text="@string/boggle_how_to_play" />
+
+   <Button
+       android:id="@+id/boggle_options"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:alpha=".75"
+       android:background="@android:drawable/btn_default"
+       android:text="@string/boggle_settings_label" />
+
+   <Button
+       android:id="@+id/boggle_credits"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:alpha=".75"
+       android:background="@android:drawable/btn_default"
+       android:text="@string/boggle_credits" />
+   
+   <Button
+       android:id="@+id/boggle_quit"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:alpha=".75"
+       android:background="@android:drawable/btn_default"
+       android:text="@string/boggle_quit_label" />
+
+</LinearLayout>

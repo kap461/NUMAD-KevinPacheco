@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dip"
+    android:background="@drawable/galaxy"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:onClick="show_info"
+        android:text="@string/member_button" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button5"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:layout_below="@id/button1"
+        android:onClick="start_sudoku"
+        android:text="@string/sudoku_button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:layout_below="@id/button2"
+        android:onClick="die"
+        android:text="@string/crash_button" />
+    
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:layout_below="@id/button3"
+        android:onClick="OnBoggleButtonClicked"
+        android:text="@string/boggle_button" />
+    
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:layout_below="@id/button5"
+        android:onClick="OnMultiplayerButtonClicked"
+        android:text="@string/persistent_button" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:layout_below="@id/button6"
+        android:onClick="exit"
+        android:text="@string/exit_button" />
+    
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:layout_below="@id/button4"
+        android:onClick="onAcknowledgmentsButtonClick"
+        android:text="@string/boggle_credits" />
+
+    
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:alpha=".75"
+        android:background="@android:drawable/btn_default"
+        android:layout_below="@id/button8"
+        android:onClick="onFinalProjectButtonClickClick"
+        android:text="@string/finalproject_button" />
+    
+
+</RelativeLayout>
